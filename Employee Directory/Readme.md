@@ -9,4 +9,4 @@
 Plain text
 
 
-![Employee Directory](Employee Directory)
+![Employee Directory](Employee Directory.jpg)
