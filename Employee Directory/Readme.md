@@ -8,4 +8,4 @@
 
 Plain text
 
-![Employee Directory](https://app.box.com/s/b7s72kjm8h3t5bi608b4yp5wa37pzrx1)
+
