@@ -1,0 +1,107 @@
+{
+  "ComponentIndexes": {},
+  "ControlUniqueGuids": {},
+  "ControlUniqueIds": {
+    "App": 1,
+    "Button2": 7,
+    "Button2_1": 10,
+    "Department": 13,
+    "DisplayName": 9,
+    "Email": 14,
+    "EmployeeTxt": 4,
+    "Gallery1": 6,
+    "galleryTemplate1": 8,
+    "Hourglass": 5,
+    "JobTitle": 12,
+    "MainPage": 3,
+    "Phone": 15,
+    "ProfilePhoto": 11,
+    "Teams": 16
+  },
+  "FunctionParamsInvariantScripts": {},
+  "FunctionParamsInvariantScriptsOnInstances": {},
+  "HeaderLastSavedDateTimeUTC": "01/09/2023 03:04:25",
+  "IsLegacyComponentAllowGlobalScopeCase": false,
+  "LocalConnectionIDReferences": {
+    "ea8f3a42-d7ad-43ff-a7d1-f0c3a359ada8": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/7c4e64be27724822858e21b0f0eff18c\""
+  },
+  "LocalDatabaseReferencesAsEmpty": false,
+  "LocalResourceFileNames": {},
+  "LocalResourceRootPaths": {},
+  "OldLogoFileName": "3o3il0hj.jpg",
+  "OrderComponentMetadata": {},
+  "OrderComponentTemplate": {},
+  "OrderDataSource": {
+    "colUserData": 3,
+    "ComboBoxSample": 2,
+    "CustomGallerySample": 1,
+    "Office365Users": 0
+  },
+  "OrderGroupControls": {},
+  "OrderPcfTemplate": {},
+  "OrderTemplate": {},
+  "OrderXMLTemplate": {
+    "button": 3,
+    "gallery": 2,
+    "icon": 1,
+    "image": 5,
+    "label": 4,
+    "text": 0
+  },
+  "OverridablePropertiesEntry": {
+    "App": {},
+    "Button2": {},
+    "Button2_1": {},
+    "Department": {},
+    "DisplayName": {},
+    "Email": {},
+    "EmployeeTxt": {},
+    "Gallery1": {},
+    "galleryTemplate1": {},
+    "Hourglass": {},
+    "JobTitle": {},
+    "MainPage": {},
+    "Phone": {},
+    "ProfilePhoto": {},
+    "Teams": {}
+  },
+  "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PublishOrderIndices": {
+    "App": 0,
+    "Button2": 3,
+    "Button2_1": 6,
+    "Department": 9,
+    "DisplayName": 5,
+    "Email": 10,
+    "EmployeeTxt": 0,
+    "Gallery1": 2,
+    "galleryTemplate1": 4,
+    "Hourglass": 1,
+    "JobTitle": 8,
+    "MainPage": 0,
+    "Phone": 11,
+    "ProfilePhoto": 7,
+    "Teams": 12
+  },
+  "ResourcesJsonIndices": {
+    "Image-SampleImage": 0
+  },
+  "RuleScreenIdWithoutScreen": {},
+  "TemplateVersions": {},
+  "VolatileProperties": {
+    "AnalysisLoadTime": 0.229574,
+    "ControlCount": {
+      "button": 2,
+      "gallery": 1,
+      "galleryTemplate": 1,
+      "icon": 4,
+      "image": 1,
+      "label": 3,
+      "screen": 1,
+      "text": 1
+    },
+    "DeserializationLoadTime": 0.5752634,
+    "ErrorCount": 0
+  },
+  "WasLocalDatabaseReferencesEmpty": true
+}

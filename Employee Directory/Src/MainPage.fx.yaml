@@ -1,0 +1,158 @@
+MainPage As screen:
+    Fill: =RGBA(242, 242, 242, 1)
+    LoadingSpinner: =LoadingSpinner.Controls
+
+    "Gallery1 As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver4.0'":
+        BorderColor: =RGBA(204, 204, 204, 1)
+        Height: =649
+        Items: |-
+            =Filter(Office365Users.SearchUser({searchTerm:"",top:999}), EmployeeTxt.Text in DisplayName || EmployeeTxt.Text in Department || EmployeeTxt.Text in JobTitle || EmployeeTxt.Text in BusinessPhones || EmployeeTxt.Text in UserPrincipalName, AccountEnabled= true And !IsBlank(JobTitle) And !IsBlank(Department))
+        Layout: =Layout.Vertical
+        TabIndex: =0
+        TemplatePadding: =8
+        TemplateSize: =Min(208, Self.Height - 60)
+        Width: =1262
+        WrapCount: =3
+        X: =40
+        Y: =107
+        ZIndex: =2
+
+        Button2_1 As button:
+            BorderColor: =RGBA(0, 121, 187, 1)
+            Fill: =RGBA(0, 121, 187, 1)
+            Height: =198
+            HoverFill: =RGBA(255, 255, 255, 1)
+            OnSelect: =Select(Parent)
+            Text: =""
+            Width: =400
+            X: =5
+            Y: =5
+            ZIndex: =1
+
+        Button2 As button:
+            BorderColor: =RGBA(255, 255, 255, 1)
+            Fill: =RGBA(255, 255, 255, 1)
+            Height: =195
+            HoverFill: =RGBA(255, 255, 255, 1)
+            OnSelect: =Select(Parent)
+            Text: =""
+            Width: =396
+            ZIndex: =2
+
+        ProfilePhoto As image:
+            Height: =120
+            Image: |
+                =If(Office365Users.UserPhotoMetadata(ThisItem.Id).HasPhoto = true, Office365Users.UserPhoto(ThisItem.Id))
+            ImagePosition: =ImagePosition.Fill
+            OnSelect: =Select(Parent)
+            RadiusBottomLeft: =62
+            RadiusBottomRight: =62
+            RadiusTopLeft: =62
+            RadiusTopRight: =62
+            Width: =120
+            X: =10
+            Y: =5
+            ZIndex: =3
+
+        JobTitle As label:
+            FontWeight: =FontWeight.Semibold
+            Height: =47
+            OnSelect: =Select(Parent)
+            Size: =12
+            Text: =ThisItem.JobTitle
+            Width: =278
+            X: =132
+            Y: =36
+            ZIndex: =5
+
+        DisplayName As label:
+            FontWeight: =FontWeight.Bold
+            OnSelect: =Select(Parent)
+            Size: =17
+            Text: =ThisItem.DisplayName
+            Width: =264
+            X: =132
+            ZIndex: =6
+
+        Department As label:
+            Height: =36
+            OnSelect: =Select(Parent)
+            Text: =ThisItem.Department
+            Width: =261
+            X: =133
+            Y: =79
+            ZIndex: =7
+
+        Phone As icon.Phone:
+            Color: =RGBA(153, 153, 153, 1)
+            Height: =23
+            HoverBorderColor: =RGBA(54, 176, 75, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Phone
+            OnSelect: |
+                =If(gblIsHostClientWeb, Launch("https://teams.microsoft.com/l/call/0/0?users="&Gallery1.Selected.UserPrincipalName, {},LaunchTarget.New),
+                    Launch("msteams://teams.microsoft.com/l/call/0/0?users="&Gallery1.Selected.UserPrincipalName, {}, LaunchTarget.New))
+            TabIndex: =0
+            Width: =23
+            X: =48
+            Y: =148
+            ZIndex: =8
+
+        Teams As icon.Message:
+            Color: =RGBA(153, 153, 153, 1)
+            Height: =26
+            HoverBorderColor: =RGBA(54, 176, 75, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Message
+            OnSelect: |
+                =If(gblIsHostClientWeb, Launch("https://teams.microsoft.com/l/chat/0/0?users="&Gallery1.Selected.UserPrincipalName, {},LaunchTarget.New),
+                    Launch("msteams://teams.microsoft.com/l/chat/0/0?users="&Gallery1.Selected.UserPrincipalName, {}, LaunchTarget.New))
+            TabIndex: =0
+            Width: =26
+            X: =178
+            Y: =148
+            ZIndex: =9
+
+        Email As icon.Mail:
+            Color: =RGBA(153, 153, 153, 1)
+            Height: =25
+            HoverBorderColor: =RGBA(54, 176, 75, 1)
+            HoverFill: =RGBA(0, 0, 0, 0)
+            Icon: =Icon.Mail
+            OnSelect: |
+                =Launch("mailto:" & ThisItem.UserPrincipalName)
+            TabIndex: =0
+            Width: =25
+            X: =311
+            Y: =147
+            ZIndex: =10
+
+    EmployeeTxt As text:
+        AccessibleLabel: ="Search an Employee"
+        BorderColor: =RGBA(0, 121, 187, 1)
+        BorderThickness: =1
+        Color: =RGBA(0, 121, 187, 1)
+        Default: =""
+        DelayOutput: =true
+        Height: =41
+        HintText: ="Search an Employee..."
+        HoverBorderColor: =RGBA(255, 255, 255, 1)
+        HoverFill: =RGBA(230, 230, 230, 1)
+        PaddingLeft: =60
+        Width: =1262
+        X: =40
+        Y: =37
+        ZIndex: =3
+
+    Hourglass As icon.Search:
+        BorderColor: =RGBA(0, 16, 96, 1)
+        Color: =RGBA(0, 121, 187, 1)
+        Height: =23
+        Icon: =Icon.Search
+        OnSelect: =true
+        TabIndex: =0
+        Width: =59
+        X: =40
+        Y: =45
+        ZIndex: =4
+
