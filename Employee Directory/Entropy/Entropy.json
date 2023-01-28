@@ -3,8 +3,7 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Button2": 7,
-    "Button2_1": 10,
+    "Blue Card": 10,
     "Department": 13,
     "DisplayName": 9,
     "Email": 14,
@@ -16,11 +15,12 @@
     "MainPage": 3,
     "Phone": 15,
     "ProfilePhoto": 11,
-    "Teams": 16
+    "Teams": 16,
+    "White Card": 7
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "01/28/2023 21:51:48",
+  "HeaderLastSavedDateTimeUTC": "01/28/2023 21:53:30",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ea8f3a42-d7ad-43ff-a7d1-f0c3a359ada8": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/7c4e64be27724822858e21b0f0eff18c\""
@@ -50,8 +50,7 @@
   },
   "OverridablePropertiesEntry": {
     "App": {},
-    "Button2": {},
-    "Button2_1": {},
+    "Blue Card": {},
     "Department": {},
     "DisplayName": {},
     "Email": {},
@@ -63,13 +62,13 @@
     "MainPage": {},
     "Phone": {},
     "ProfilePhoto": {},
-    "Teams": {}
+    "Teams": {},
+    "White Card": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Button2": 3,
-    "Button2_1": 6,
+    "Blue Card": 6,
     "Department": 9,
     "DisplayName": 5,
     "Email": 10,
@@ -81,7 +80,8 @@
     "MainPage": 0,
     "Phone": 11,
     "ProfilePhoto": 7,
-    "Teams": 12
+    "Teams": 12,
+    "White Card": 3
   },
   "ResourcesJsonIndices": {
     "Image-SampleImage": 0

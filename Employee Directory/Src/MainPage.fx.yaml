@@ -17,7 +17,7 @@ MainPage As screen:
         Y: =107
         ZIndex: =2
 
-        Button2_1 As button:
+        "'Blue Card' As button":
             BorderColor: =RGBA(0, 121, 187, 1)
             Fill: =RGBA(0, 121, 187, 1)
             Height: =198
@@ -29,7 +29,7 @@ MainPage As screen:
             Y: =5
             ZIndex: =1
 
-        Button2 As button:
+        "'White Card' As button":
             BorderColor: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =195
