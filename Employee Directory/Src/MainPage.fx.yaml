@@ -42,7 +42,7 @@ MainPage As screen:
         ProfilePhoto As image:
             Height: =120
             Image: |
-                =If(Office365Users.UserPhotoMetadata(ThisItem.Id).HasPhoto = true, Office365Users.UserPhoto(ThisItem.Id))
+                =Office365Users.UserPhoto(ThisItem.Id)
             ImagePosition: =ImagePosition.Fill
             OnSelect: =Select(Parent)
             RadiusBottomLeft: =62
