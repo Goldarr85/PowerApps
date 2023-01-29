@@ -27,7 +27,7 @@
       "disablecdsfileandlargeimage": false,
       "disablecommandbar": false,
       "dynamicschema": false,
-      "enableappembeddingux": true,
+      "enableappembeddingux": false,
       "enablebarcodereaderfeature": false,
       "enablecomponentnamemaps": false,
       "enablecomponentscopeoldbehavior": false,
