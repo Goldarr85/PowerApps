@@ -2,7 +2,7 @@ App As appinfo:
     BackEnabled: =false
     OnStart: |+
         =Set(gblIsHostClientWeb,Param("hostClientType")="web");
-        ClearCollect(colUserData, Office365Users.SearchUser({searchTerm:"",top:500}))
+        ClearCollect(colUserData, Office365Users.SearchUser({searchTerm:"",top:999}))
         
         
         
