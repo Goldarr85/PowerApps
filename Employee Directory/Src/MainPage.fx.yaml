@@ -97,7 +97,7 @@ MainPage As screen:
                     Launch("msteams://teams.microsoft.com/l/call/0/0?users="&Gallery1.Selected.UserPrincipalName, {}, LaunchTarget.New))
             TabIndex: =0
             Width: =23
-            X: =48
+            X: =54
             Y: =148
             ZIndex: =8
 
@@ -112,7 +112,7 @@ MainPage As screen:
                     Launch("msteams://teams.microsoft.com/l/chat/0/0?users="&Gallery1.Selected.UserPrincipalName, {}, LaunchTarget.New))
             TabIndex: =0
             Width: =26
-            X: =178
+            X: =184
             Y: =148
             ZIndex: =9
 
@@ -126,7 +126,7 @@ MainPage As screen:
                 =Launch("mailto:" & ThisItem.UserPrincipalName)
             TabIndex: =0
             Width: =25
-            X: =311
+            X: =317
             Y: =147
             ZIndex: =10
 
