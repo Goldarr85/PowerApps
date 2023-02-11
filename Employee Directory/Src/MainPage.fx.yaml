@@ -44,9 +44,10 @@ MainPage As screen:
             Image: |
                 =Office365Users.UserPhoto(ThisItem.Id)
             ImagePosition: =ImagePosition.Fill
-            OnSelect: |
-                =Launch("https://nam.delve.office.com/?u="&ThisItem.Id&"&v=work");
-                Select(Parent)
+            OnSelect: |+
+                =Select(Parent);
+                Launch("https://nam.delve.office.com/?u="&ThisItem.Id&"&v=work")
+                
             RadiusBottomLeft: =62
             RadiusBottomRight: =62
             RadiusTopLeft: =62
