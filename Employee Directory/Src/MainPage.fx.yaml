@@ -41,6 +41,7 @@ MainPage As screen:
             BorderColor: =RGBA(255, 255, 255, 1)
             Fill: =RGBA(255, 255, 255, 1)
             Height: =195
+            HoverColor: =RGBA(255, 255, 255, 2)
             HoverFill: =RGBA(255, 255, 255, 1)
             OnSelect: =Select(Parent)
             Text: =""
