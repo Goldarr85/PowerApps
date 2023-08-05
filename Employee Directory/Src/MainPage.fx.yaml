@@ -15,6 +15,7 @@ MainPage As screen:
         Items: |-
             =Filter(Office365Users.SearchUser({searchTerm:"",top:999}), EmployeeTxt.Text in DisplayName || EmployeeTxt.Text in Department || EmployeeTxt.Text in JobTitle || EmployeeTxt.Text in BusinessPhones || EmployeeTxt.Text in UserPrincipalName, AccountEnabled= true And !IsBlank(JobTitle) And !IsBlank(Department))
         Layout: =Layout.Vertical
+        ShowScrollbar: =false
         TabIndex: =0
         TemplatePadding: =8
         TemplateSize: =Min(208, Self.Height - 60)

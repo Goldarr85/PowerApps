@@ -22,7 +22,7 @@
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "08/05/2023 15:58:21",
+  "HeaderLastSavedDateTimeUTC": "08/05/2023 15:59:29",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ea8f3a42-d7ad-43ff-a7d1-f0c3a359ada8": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/7c4e64be27724822858e21b0f0eff18c\""
@@ -77,7 +77,7 @@
   "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Blue Card": 7,
+    "Blue Card": 8,
     "Department": 10,
     "DisplayName": 6,
     "Email": 11,
@@ -90,7 +90,7 @@
     "JobTitle": 9,
     "MainPage": 0,
     "Phone": 12,
-    "ProfilePhoto": 8,
+    "ProfilePhoto": 7,
     "Teams": 13,
     "White Card": 4
   },
