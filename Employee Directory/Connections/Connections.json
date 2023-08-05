@@ -1,8 +1,5 @@
 {
   "ea8f3a42-d7ad-43ff-a7d1-f0c3a359ada8": {
-    "connectionParameters": {
-      "sku": "Enterprise"
-    },
     "connectionRef": {
       "apiTier": "Standard",
       "displayName": "Office 365 Users",

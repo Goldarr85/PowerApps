@@ -2,6 +2,13 @@ MainPage As screen:
     Fill: =RGBA(242, 242, 242, 1)
     LoadingSpinner: =LoadingSpinner.Controls
 
+    Image5 As image:
+        Height: =768
+        Image: ='large-triangles'
+        ImagePosition: =ImagePosition.Fill
+        Width: =1366
+        ZIndex: =1
+
     "Gallery1 As gallery.'BrowseLayout_Vertical_OneImageThreeColumnVariant_ver4.0'":
         BorderColor: =RGBA(204, 204, 204, 1)
         Height: =649
@@ -13,8 +20,8 @@ MainPage As screen:
         TemplateSize: =Min(208, Self.Height - 60)
         Width: =1262
         WrapCount: =3
-        X: =40
-        Y: =107
+        X: =52
+        Y: =97
         ZIndex: =2
 
         "'Blue Card' As button":
@@ -25,8 +32,8 @@ MainPage As screen:
             OnSelect: =Select(Parent)
             Text: =""
             Width: =400
-            X: =5
-            Y: =5
+            X: =10
+            Y: =10
             ZIndex: =1
 
         "'White Card' As button":
@@ -143,8 +150,8 @@ MainPage As screen:
         HoverFill: =RGBA(230, 230, 230, 1)
         PaddingLeft: =60
         Width: =1262
-        X: =40
-        Y: =37
+        X: =52
+        Y: =36
         ZIndex: =3
 
     Hourglass As icon.Search:

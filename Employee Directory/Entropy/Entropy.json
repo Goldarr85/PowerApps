@@ -3,31 +3,37 @@
   "ControlUniqueGuids": {},
   "ControlUniqueIds": {
     "App": 1,
-    "Blue Card": 10,
-    "Department": 13,
-    "DisplayName": 9,
-    "Email": 14,
-    "EmployeeTxt": 4,
-    "Gallery1": 6,
-    "galleryTemplate1": 8,
-    "Hourglass": 5,
-    "JobTitle": 12,
-    "MainPage": 3,
-    "Phone": 15,
-    "ProfilePhoto": 11,
-    "Teams": 16,
-    "White Card": 7
+    "Blue Card": 11,
+    "Department": 14,
+    "DisplayName": 10,
+    "Email": 15,
+    "EmployeeTxt": 5,
+    "Gallery1": 7,
+    "galleryTemplate1": 9,
+    "Host": 3,
+    "Hourglass": 6,
+    "Image5": 26,
+    "JobTitle": 13,
+    "MainPage": 4,
+    "Phone": 16,
+    "ProfilePhoto": 12,
+    "Teams": 17,
+    "White Card": 8
   },
   "FunctionParamsInvariantScripts": {},
   "FunctionParamsInvariantScriptsOnInstances": {},
-  "HeaderLastSavedDateTimeUTC": "02/11/2023 06:21:03",
+  "HeaderLastSavedDateTimeUTC": "08/05/2023 15:58:21",
   "IsLegacyComponentAllowGlobalScopeCase": false,
   "LocalConnectionIDReferences": {
     "ea8f3a42-d7ad-43ff-a7d1-f0c3a359ada8": "\"/providers/microsoft.powerapps/apis/shared_office365users/connections/7c4e64be27724822858e21b0f0eff18c\""
   },
   "LocalDatabaseReferencesAsEmpty": false,
-  "LocalResourceFileNames": {},
-  "LocalResourceRootPaths": {},
+  "LocalResourceFileNames": {
+    "large-triangles": "91b4144c-12b9-4ed3-98dc-0680d95f0e5f.svg"
+  },
+  "LocalResourceRootPaths": {
+    "large-triangles": "https://docserverpwaprodeus.blob.core.windows.net/7bc329cf-f24d-426d-8f6a-d15119856b17-1/resource/9f6ac203-e091-4219-81ad-9b405b8f56fb.svg?sv=2018-03-28&sr=b&sig=RssNvC%2Fcauw3ewwlg%2BFSEV%2BIwxU%2Frke2Gy3wzsP9rUM%3D&spr=https&se=2023-08-06T16%3A10%3A12Z&sp=r"
+  },
   "OldLogoFileName": "3o3il0hj.jpg",
   "OrderComponentMetadata": {},
   "OrderComponentTemplate": {},
@@ -41,12 +47,12 @@
   "OrderPcfTemplate": {},
   "OrderTemplate": {},
   "OrderXMLTemplate": {
-    "button": 3,
-    "gallery": 2,
-    "icon": 1,
-    "image": 5,
-    "label": 4,
-    "text": 0
+    "button": 4,
+    "gallery": 3,
+    "icon": 2,
+    "image": 0,
+    "label": 5,
+    "text": 1
   },
   "OverridablePropertiesEntry": {
     "App": {},
@@ -57,7 +63,9 @@
     "EmployeeTxt": {},
     "Gallery1": {},
     "galleryTemplate1": {},
+    "Host": {},
     "Hourglass": {},
+    "Image5": {},
     "JobTitle": {},
     "MainPage": {},
     "Phone": {},
@@ -66,30 +74,34 @@
     "White Card": {}
   },
   "PCFDynamicSchemaForIRRetrievalEntry": {},
+  "PCFTemplateEntry": {},
   "PublishOrderIndices": {
     "App": 0,
-    "Blue Card": 6,
-    "Department": 9,
-    "DisplayName": 5,
-    "Email": 10,
-    "EmployeeTxt": 0,
-    "Gallery1": 2,
-    "galleryTemplate1": 4,
-    "Hourglass": 1,
-    "JobTitle": 8,
+    "Blue Card": 7,
+    "Department": 10,
+    "DisplayName": 6,
+    "Email": 11,
+    "EmployeeTxt": 1,
+    "Gallery1": 3,
+    "galleryTemplate1": 5,
+    "Host": 0,
+    "Hourglass": 2,
+    "Image5": 0,
+    "JobTitle": 9,
     "MainPage": 0,
-    "Phone": 11,
-    "ProfilePhoto": 7,
-    "Teams": 12,
-    "White Card": 3
+    "Phone": 12,
+    "ProfilePhoto": 8,
+    "Teams": 13,
+    "White Card": 4
   },
   "ResourcesJsonIndices": {
+    "Image-large-triangles": 1,
     "Image-SampleImage": 0
   },
   "RuleScreenIdWithoutScreen": {},
   "TemplateVersions": {},
   "VolatileProperties": {
-    "AnalysisLoadTime": 0.1289722,
+    "AnalysisLoadTime": 0.1406502,
     "ControlCount": {
       "button": 2,
       "gallery": 1,
@@ -100,8 +112,7 @@
       "screen": 1,
       "text": 1
     },
-    "DeserializationLoadTime": 1.1659114,
-    "ErrorCount": 0
+    "DeserializationLoadTime": 0.7985047
   },
   "WasLocalDatabaseReferencesEmpty": true
 }
